@@ -1,0 +1,104 @@
+
+body {
+  background: url(cocoback.GIF) no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+  overflow-x: hidden;
+}
+
+.shown{
+  border-color:#B1403B;
+}
+
+.hidden{
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a,h2 {
+  font-family: changeling-neo, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2vw;
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+p{
+  font-family: changeling-neo, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1vw;
+  margin: 0px;
+}
+
+.grid{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 33vh 33vh 33vh;
+  padding:0px;
+}
+
+.grid > div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: black;
+  padding: 0px;
+}
+img{
+  outline: 1px solid #B1403B;
+  outline-offset: -3px;
+  margin:5px;
+}
+#img1{
+  grid-area: img1;
+  width:100%;
+  margin: 0px;
+}
+#img2{
+  grid-area: img2;
+  width:100%;
+  margin: 0px;
+}
+#img3{
+  grid-area: img3;
+  width:100%;
+  margin: 0px;
+}
+#img4{
+  grid-area: img4;
+  width:100%;
+  margin: 0px;
+}
+#img5{
+  grid-area: img5;
+  width:100%;
+  margin: 0px;
+}
+#img6{
+  grid-area: img6;
+  width:100%;
+  margin: 0px;
+}
+
+.gallery{
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 20% 20% 20%;
+  grid-template-columns: 18% 18% 18% 18%;
+  grid-template-areas:
+  "img1 img1 img2"
+  "img1 img1 img3"
+  "img4 img5 img5"
+  "img6 img5 img5";
+  margin-left: 10%;
+  margin-bottom: 5px;
+}
