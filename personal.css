@@ -6,9 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-div {
-  cursor: pointer;
-}
 
 .shown{
   border-color:#B1403B;
@@ -18,6 +15,7 @@ div {
   display: none;
   margin: 0px;
   padding: 0px;
+  cursor: pointer;
 }
 
 a,h2 {
