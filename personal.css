@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+div {
+  cursor: pointer;
+}
+
 .shown{
   border-color:#B1403B;
 }
@@ -52,7 +56,6 @@ p{
   border-style: solid;
   border-color: black;
   padding: 0px;
-  cursor: pointer;
 }
 img{
   outline: 1px solid #B1403B;
