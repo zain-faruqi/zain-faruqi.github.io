@@ -15,7 +15,6 @@ body {
   display: none;
   margin: 0px;
   padding: 0px;
-  cursor: pointer;
 }
 
 a,h2 {
@@ -54,6 +53,7 @@ p{
   border-style: solid;
   border-color: black;
   padding: 0px;
+  cursor: pointer;
 }
 img{
   outline: 1px solid #B1403B;
